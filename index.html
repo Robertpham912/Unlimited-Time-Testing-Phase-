@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unlimited Time - Web Beta</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- GIAO DIỆN CHÍNH CỦA GAME -->
+    <div id="game-container">
+        <div id="timer-display">Thời gian: <span id="time">30</span>s</div>
+        <div id="game-canvas">
+            <!-- Sau này map bé và nhân vật bo tròn 3D sẽ hiện ở đây -->
+            <p>[ Khu vực Map Parkour Bé ]</p>
+        </div>
+    </div>
+
+    <!-- HỆ THỐNG CHAT TRÊN WEB -->
+    <div id="chat-box">
+        <div id="chat-messages"></div>
+        <div id="chat-input-area">
+            <input type="text" id="chat-input" placeholder="Nhập tin nhắn...">
+            <button onclick="sendMessage()">Gửi</button>
+        </div>
+    </div>
+
+    <!-- BẢNG ĐIỀU KHIỂN CỦA HOST (Chỉ hiển thị nếu là Chủ phòng) -->
+    <div id="host-panel">
+        <h3>Bảng điều khiển của Host</h3>
+        <button onclick="kickPlayer()">Kick Người Chơi</button>
+        <button onclick="closeServer()">Đóng Máy Chủ</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
