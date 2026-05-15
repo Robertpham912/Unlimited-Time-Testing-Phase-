@@ -45,4 +45,11 @@ button {
 button:hover {
     background: #666;
 }
+#gameCanvas {
+    background-color: #000; /* Nền đen để nổi bật Map */
+    border: 2px solid #444;
+    display: block;
+    margin: 10px auto;
+    cursor: crosshair;
+}
 
