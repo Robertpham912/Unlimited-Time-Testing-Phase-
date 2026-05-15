@@ -1,1 +1,48 @@
+body {
+    background-color: #1a1a1a; /* Màu nền tối cho ngầu */
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#game-container {
+    border: 3px solid #00ff00; /* Viền xanh lá cho phe Tốt */
+    border-radius: 15px; /* Bo tròn đúng phong cách nhân vật */
+    padding: 20px;
+    margin: 20px;
+    width: 80%;
+    text-align: center;
+    background: #252525;
+}
+
+#timer-display {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff4444; /* Màu đỏ cảnh báo thời gian */
+}
+
+#chat-box {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    width: 80%;
+    padding: 10px;
+    height: 150px;
+    overflow-y: auto; /* Cuộn tin nhắn */
+}
+
+button {
+    background: #444;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px; /* Nút cũng phải bo tròn cho kì cục */
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover {
+    background: #666;
+}
 
