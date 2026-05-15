@@ -78,5 +78,13 @@ function drawGame() {
 }
 
 drawGame(); // Bắt đầu vẽ
+#gameCanvas {
+    background-color: #000; /* Nền đen để thấy Map xám */
+    border: 3px solid #444;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px; /* Bo tròn map cho đồng bộ */
+}
+
 
 
